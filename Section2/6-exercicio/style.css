@@ -1,0 +1,39 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+    margin: auto;
+    background-color: azure;
+    color: #444;
+}
+
+h1 {
+    background-color: rgb(238, 103, 103);
+    color: #923a3a;
+    font-size: 46px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 60px;
+    background-color: rgb(216, 170, 170);
+    color: red;
+    font-size: 36px;
+    padding: 10px;
+    border-bottom: solid 3px red;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-position: inside;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
