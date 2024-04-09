@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+
+    <style>
+        body {
+            font-size: 22px;
+            font-family: sans-serif;
+            width: 700px;
+            margin: auto;
+            background-image: url(../../image/bg.jpg); /*imagem de fundo*/
+            /*background-repeat: no-repeat; imagem de fundo para não repetir, repeat, no-repeat, repeat-y, repeat-x*/
+            background-attachment: fixed; /*deixa a imagem escrolando ou fixa*/
+            /*background-size: 100% 100%; tamanho da imagem de fundo, 100% para x e 100% para y mas fica destorcida*/
+            background-size: cover; /*contain vai ocupar a imagem no espaço todo mas vai privilegiar a imagem independente se vai repetir ou nao*/
+            /*cover vai ocupar o espaço todo mesmo que a imagem não apareça toda*/
+            background-position: right bottom; /*posição que a imagem vai ficar x e y*/
+        }
+
+        p {
+            line-height: 1.5; /*espaçamento entre as linhas*/
+        }
+
+        .img-html {
+            float: left; /*deixar flutuando a esquerda*/
+        }
+
+        .img-css {
+            float: right; /*deixar flutuando a direita*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Incluir imagens</h1>
+    <p><a href="#">Lorem ipsum, dolor</a></p>
+    <img src="../../image/html5.png" alt="logotipo html5" class="img-html">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat repellat ea dolores eligendi! Est vitae, cupiditate expedita nam reprehenderit numquam, asperiores velit ipsa illo soluta odit distinctio, recusandae ab nihil magni corporis similique placeat magnam quam neque tempore! Assumenda eos fuga praesentium numquam excepturi. Officia numquam ad deleniti repellat laboriosam.</p>
+   <img src="../../image/css3.png" alt="logotipo css3" class="img-css">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat repellat ea dolores eligendi! Est vitae, cupiditate expedita nam reprehenderit numquam, asperiores velit ipsa illo soluta odit distinctio, recusandae ab nihil magni corporis similique placeat magnam quam neque tempore! Assumenda eos fuga praesentium numquam excepturi. Officia numquam ad deleniti repellat laboriosam.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat repellat ea dolores eligendi! Est vitae, cupiditate expedita nam reprehenderit numquam, asperiores velit ipsa illo soluta odit distinctio, recusandae ab nihil magni corporis similique placeat magnam quam neque tempore! Assumenda eos fuga praesentium numquam excepturi. Officia numquam ad deleniti repellat laboriosam.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat repellat ea dolores eligendi! Est vitae, cupiditate expedita nam reprehenderit numquam, asperiores velit ipsa illo soluta odit distinctio, recusandae ab nihil magni corporis similique placeat magnam quam neque tempore! Assumenda eos fuga praesentium numquam excepturi. Officia numquam ad deleniti repellat laboriosam.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat repellat ea dolores eligendi! Est vitae, cupiditate expedita nam reprehenderit numquam, asperiores velit ipsa illo soluta odit distinctio, recusandae ab nihil magni corporis similique placeat magnam quam neque tempore! Assumenda eos fuga praesentium numquam excepturi. Officia numquam ad deleniti repellat laboriosam.</p>
+</body>
+</html>
