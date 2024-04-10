@@ -1,0 +1,6 @@
+
+display: block|inline|inline-block|none;   block: gera quebra de linha e ocupa 100% do espaço, tbm consegue usar o box model(margin, border, padding, width, heigth)
+                                           inline: sempre fica na mesma linha e ocupa o espaço necessário para o uso, não funciona box model apenas margin na horizontal, e padding ficara na mesma linha mas com o padding ultrapassando outros conteudos existentes perto
+                                           inline-block: vai ser um elemento de linha mas que recebe caracteriscas de bloco
+                                           none: tira do html
+visibility: hidden;                        vai tirar do html mas vai deixar o espaço do conteudo

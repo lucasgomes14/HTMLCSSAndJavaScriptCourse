@@ -1,0 +1,4 @@
+box-sizing faz como por exemplo o padding nao somar ao valor final do tamanho do conteudo
+
+box-sizing: border-box    faz que o tamanho do conteudo se matenha e para que o padding se adeque ao tamanho do conteudo em si
+            content-box   padrao

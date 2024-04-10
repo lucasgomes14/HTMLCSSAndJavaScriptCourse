@@ -1,0 +1,11 @@
+é o que mais tem efeito colateral no css
+
+right|left|none
+
+none: fluxo normal, já é como padrao
+
+float é como se o conteudo saisse de casa e tenta se encaixar no conteudo abaixo dele
+
+mas se o conteudo de baixo tiver com um clear, o conteudo nao vai ouvir o float do outro conteudo
+
+clear: left| right| both: serve para os dois lados
