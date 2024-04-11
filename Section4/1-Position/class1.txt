@@ -1,0 +1,11 @@
+position: static| relative| absolute| fixed
+
+static: a ordem que ta o elemento no html, vai ta na tela
+
+as outras só vao funcionar com o left| rigth| top| bottom
+
+relative: elemento vai andar especificamente o quanto vc colocar no left..., a partir da posicao original dele
+absolute: se referencia pelo documento, o primeiro elemento pai que tenha position relative, absolute ou fixed, e tbm sai do fluxo normal
+fixed: fica fixo na tela, na janela do browser, e tbm sai do fluxo normal
+
+propriedade z-index default: 0
