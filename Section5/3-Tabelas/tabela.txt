@@ -1,0 +1,45 @@
+pra criar tabela precisa de um conjuto de 3 tags
+table == tabela
+    tr == linha da tabela
+        td/td == coluna da linha
+        td/td
+    /tr 
+/table 
+
+para mesclar coluna ou/e linha
+atributos:
+colspan e quantidade
+rowspan e quantidade
+
+cabeçalho (texto) da tabela
+th/th
+
+cabeçalho (area) da tabela
+thead/thead
+
+corpo da tabela
+tbody/tbody
+
+caption = titulo da tabela
+caption/caption
+
+table
+    thead
+        tr  
+            th/th 
+        /tr 
+    /thead
+
+    tbody
+        tr
+            td/td 
+        /tr 
+    /tbody
+/table
+
+rodape(fica debaixo de thead no html mas no visual vai pra ultima linha)
+tfoot/tfoot
+
+propriedade css border-collapse(separate, collapse)
+separate-padrao: espaço de uma celula e outra
+collapse: celula coladinha na outra

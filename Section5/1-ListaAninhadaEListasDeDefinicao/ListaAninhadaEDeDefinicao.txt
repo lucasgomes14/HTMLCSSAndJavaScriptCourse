@@ -1,0 +1,23 @@
+lista aninhada
+
+<ul>
+    <li></li>
+    <li>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </li>
+
+lista de definição
+
+
+
+<dl> == definition list
+    <dl></dl>
+    <dd></dd> == definition describetion
+</dl>
+
+pode ter um dt e seguida de um dd
+pode ter um dt com varios outros dd
+pode ter varios dt com um dd

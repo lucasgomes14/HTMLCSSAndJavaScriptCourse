@@ -1,0 +1,8 @@
+serve para tratar o conteudo que excede um determinado elemento
+
+visible-padrao, hidden, scrool, auto
+
+visible: deixa visivel excendendo ou nao do seu elemento
+hidden: deixa apenas visivel o que está dentro do seu elemento
+scrool: coloca uma barra de rolagem caso exceda
+auto: deixa automatica caso precise da barra de rolagem
